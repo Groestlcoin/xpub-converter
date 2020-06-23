@@ -3,12 +3,12 @@
   "version": "2.1.2",
   "description": "A straightforward implementation of base58-check encoding",
   "keywords": [],
-  "homepage": "https://github.com/bitcoinjs/bs58check",
+  "homepage": "https://github.com/Groestlcoin/bs58grscheck",
   "bugs": {
-    "url": "https://github.com/bitcoinjs/bs58check/issues"
+    "url": "https://github.com/Groestlcoin/bs58grscheck/issues"
   },
   "license": "MIT",
-  "author": "Daniel Cousens",
+  "author": "Groestlcoin Developers",
   "files": [
     "index.js",
     "base.js"
@@ -16,7 +16,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitcoinjs/bs58check.git"
+    "url": "https://github.com/Groestlcoin/bs58grscheck.git"
   },
   "scripts": {
     "coverage-report": "nyc report --reporter=lcov",
@@ -26,6 +26,6 @@
     "unit": "tape test/*.js"
   },
   "dependencies": {
-    "bs58check": "^2.1.2"
+    "bs58grscheck": "^2.1.2"
   }
 }
